@@ -414,7 +414,7 @@ namespace NS2MappingHelper
 				return;
 			}
 			DirectoryInfo ns2Dir = new DirectoryInfo(Program.cfg.ns2Path);
-			if (!modDir.Exists)
+			if (!ns2Dir.Exists)
 			{
 				MessageBox.Show("\"Natural Selection 2\" directory does not exist!");
 				return;
